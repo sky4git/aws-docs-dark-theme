@@ -1,0 +1,20 @@
+{
+    "name": "AWS Docs",
+    "version": "1.0",
+    "description": "Enables Dark theme and Remove unwanted DOM elements from AWS docs pages. Removes header, footer and  left column title.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://docs.aws.amazon.com/*"],
+          "js": ["contentScript.js"],
+          "css": ["contentStyle.css"]
+        }
+    ],
+    "icons": 
+    { 
+        "140": "AWS-Cloud-alt_dark-bg@4x.png" 
+    },
+    "manifest_version": 2
+}

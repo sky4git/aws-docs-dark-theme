@@ -1,0 +1,21 @@
+html,body{ 
+    background-color: #212121 !important ;
+}
+body, div{ color: #ededed !important; }
+#main{ background-color: #212121 !important ; }
+p{ color:#ededed !important; }
+#left-column {
+    background-color: #212121 !important ;
+}
+ul.awstoc{
+    background-color: #212121 !important ;
+}
+li.awstoc{
+    background-color: #212121 !important ;
+}
+a, p a, li a, dt a{
+    color: #99c3ed !important;
+}
+#pagetoc{
+    background-color: #212121 !important
+}
