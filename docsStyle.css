@@ -16,6 +16,9 @@ li.awstoc{
 a, p a, li a, dt a{
     color: #99c3ed !important;
 }
+li a.opened{
+    color: #fff !important;
+}
 #pagetoc{
     background-color: #212121 !important
 }
